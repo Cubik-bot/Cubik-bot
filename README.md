@@ -1,6 +1,6 @@
 This is a telegram bot aka 'Cubik bot'
 
-It has three powerful functions:
+It has three powerful actions:
 
 1. **Build the plot** of exchange rate for the past month for chosen currency:
 	* Dollar USA
