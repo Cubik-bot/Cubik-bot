@@ -88,7 +88,7 @@ async def process_generator_command(message: types.Message):
 async def process_temp_command(message: types.Message, name):
     Dict = {"moscow": "Москве", "peter": "Санкт-Петербурге"}
     data = parse_weather.temperature(name)
-    await bot.send_message(chat_id=message.chat.id, text='Ну и погодка в ' + Dict[name] + ' - сейчас ' + data)
+    await bot.send_message(chat_id=message.chat.id, text='Ну и погодка в ' + Dict[name] + '!' + data)
 
 
 async def process_plot_command(message: types.Message, name):

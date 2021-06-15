@@ -13,5 +13,6 @@ def temperature(city):
 
     temp = soup.find("span", class_='temp__value_with-unit')
     cond = soup.find("div", class_='link__condition')
-    str = temp.text + '°C, ' + cond.text + '!'
+    next = soup.find("p", class_='maps-widget-fact__title')
+    str = '\nСейчас ' + temp.text + '°C, ' + cond.text + '.\n' + next.text + '.'
     return str + '\n\nИнформация взята с сайта yandex.ru/pogoda'
