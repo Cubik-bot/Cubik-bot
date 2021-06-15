@@ -9,17 +9,17 @@ It has three powerful functions:
 	* Swiss frank
 	* Swedish krona
 	* Japanese yen
-Implemented as inline keyboard aka 'dialog buttons'
 	
 2. **Show current weather** and predicted conditions in next two hours for chosen city:
 	* Moscow
 	* Saint-Petersburg
-Implemented as inline keyboard aka 'dialog buttons'
-	
+
 3. **Generate pseudo-random sentence** including:
 	* nouns
 	* verbs
 	* adjectives
 	* adverbs
 	* prepositions
-Implemented as random choice from list of 500 most frequently used words
+	
+
+Generally there are 6 functions for building plots, 2 functions for showing weather, 1 for generating sentences
