@@ -4,7 +4,6 @@ import requests
 
 def temperature(city):
     url = "https://yandex.ru/pogoda/"
-    city = 'moscow'
     if city == 'moscow':
         url += city
     elif city == 'peter':

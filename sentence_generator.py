@@ -65,14 +65,19 @@ adv = ('not', 'also', 'very', 'often', 'however', 'too', 'usually', 'really', 'e
        'elsewhere', 'everywhere', 'obviously', 'perfectly', 'physically', 'successfully',
        'suddenly', 'truly', 'virtually', 'altogether', 'anyway', 'automatically')
 
+preps = ('of', 'with', 'at', 'from', 'into', 'during', 'until', 'to', 'in', 'for', 'on',
+         'by', 'about', 'like', 'through', 'but', 'up', 'out', 'after', 'under')
+
 
 def generate_sentence():
     str = random.choice(nouns) + ' '
     str += random.choice(adv) + ' '
     str += random.choice(verbs) + ' '
+    str += random.choice(preps) + ' '
     str += random.choice(adj) + ' '
     str += random.choice(nouns) + ' '
     str += random.choice(adv) + ' '
+    str += random.choice(preps) + ' '
     str += random.choice(nouns) + ' '
     str += random.choice(adj) + '.'
     return str
