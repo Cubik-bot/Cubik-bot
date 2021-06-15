@@ -80,4 +80,5 @@ def generate_sentence():
     str += random.choice(preps) + ' '
     str += random.choice(nouns) + ' '
     str += random.choice(adj) + '.'
-    return str
+    char = str[0:1].upper()
+    return char + str[1:]
