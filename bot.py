@@ -2,13 +2,13 @@ import typing
 import os
 import parse_rate
 import parse_weather
+import sentence_generator as gen
 from config import TOKEN
 from aiogram.types.callback_query import CallbackQuery
 from aiogram.utils.callback_data import CallbackData
 from aiogram.utils import executor
 from aiogram.dispatcher import Dispatcher
 from aiogram import Bot, types
-from essential_generators import DocumentGenerator
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
@@ -81,8 +81,7 @@ async def process_chosen_rate_command(call: CallbackQuery, callback_data: typing
 
 @dp.message_handler(commands=['rand'])
 async def process_generator_command(message: types.Message):
-    gen = DocumentGenerator()
-    sentence = gen.sentence()
+    sentence = gen.generate_sentence()
     await message.reply(sentence)
 
 
