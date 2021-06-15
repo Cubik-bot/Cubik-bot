@@ -1,0 +1,7 @@
+aiogram==2.13
+matplotlib==3.4.2
+beautifulsoup4==4.9.3
+requests==2.22.0
+essential-generators==1.0
+typing-extensions==3.10.0.0
+python-dateutil==2.7.3
