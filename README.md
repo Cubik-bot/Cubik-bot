@@ -23,3 +23,4 @@ It has three powerful actions:
 	
 
 Generally there are 6 functions for building plots, 2 functions for showing weather, 1 for generating sentences
+You can find this bot in telegram aka "@Cub0_bot"
