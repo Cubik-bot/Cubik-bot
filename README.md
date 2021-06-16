@@ -1,6 +1,6 @@
 This is a telegram bot aka 'Cubik bot'
 
-It has three powerful actions:
+It has three powerful actions:  
 
 1. **Build the plot** of exchange rate for the past month for chosen currency:
 	* Dollar USA
@@ -22,5 +22,5 @@ It has three powerful actions:
 	* prepositions
 	
 
-Generally there are 6 functions for building plots, 2 functions for showing weather, 1 for generating sentences.\n
-You can find this bot in telegram aka "@Cub0_bot"
+Generally there are 6 functions for building plots, 2 functions for showing weather, 1 for generating sentences.  
+You can find this bot in **Telegram aka "@Cub0_bot"**
